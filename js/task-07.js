@@ -6,3 +6,4 @@ input.addEventListener('input', updateFontSize);
 function updateFontSize() {
     span.style.fontSize = input.value +'px';
 }
+updateFontSize()
